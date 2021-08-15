@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckMark | To Do List Made Simple</title>
+    <link rel="icon" href="img/check.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ceece6f242.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html">
+            <div id="logo">
+                <img src="img/check.png" alt="Logo">
+                <p>CheckMark</p>
+            </div>
+        </a>
+        <div id="icon" class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="greet">
+        <h1>Hello, user!</h1>
+    </div>
+    <div class="container">
+        <h2>To do list:</h2>
+        <hr>
+        <div class="new-items">
+            <p>Enter a new item:</p>
+            <input type="text" maxlength="32">
+            <button>Add</button>
+        </div>
+        <hr>
+        <div class="items">
+        <ul>
+            <!-- Data comes from local storage -->
+            
+            <!-- Example of a proper list item -->
+            <!-- <li>
+                <div class="item">
+                    <div class="list">
+                        <p>Item 1: Do the dishes</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="done"><i class="fas fa-check"></i></button>
+                        <button class="delete"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    </div>
+    <footer>
+        <p>Powered by JavaScript</p>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
