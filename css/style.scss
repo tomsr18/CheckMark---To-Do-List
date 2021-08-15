@@ -4,9 +4,9 @@ $check: #00DF76;
 $check-hover: #00AB5E;
 $delete: #D11A2A;
 $delete-hover: #a81522;
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 *{
-    font-family: Segoe UI;
+    font-family: Segoe UI, Open Sans;
     color: $text;
     padding: 0;
     margin: 0;
